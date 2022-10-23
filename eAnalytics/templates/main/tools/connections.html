@@ -13,7 +13,7 @@
 <a href="{% url 'main:tools' tool='csv-connection' %}">Подключить csv файл</a>
 <h4>Ваши подключения</h4>
 <p>Список подключений</p>
-{% for object, csv in connections %}
+<!-- {% for object, csv in connections %}
     <li><strong>object.name =</strong> {{ object.name }}; <strong>csv.file =</strong> {{ csv.file }}; <strong>object.datetime =</strong> {{ object.datetime }};</li>
-{% endfor %}
+{% endfor %} !-->
 {% endblock %}
